@@ -75,7 +75,7 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
           Hi puttu, no matter what number you entered, there is no limit to how much I love you. 
           You made my life brighter, and I can't wait to go to trip together!
           <br /><br />
-          <strong>Birthday Plan Confirmed:</strong><br />
+          <strong>Plan Confirmed puttu:</strong><br />
           ✨ {birthdayChoices || "We'll figure out a perfect plan!"}
         </div>
 
