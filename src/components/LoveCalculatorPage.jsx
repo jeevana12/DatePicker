@@ -56,7 +56,7 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
 
   // Pre-fill WhatsApp message link
   const getWhatsAppLink = () => {
-    const baseText = `Hey Siddi! I finished the quiz. 💖\nIt turns out you love me to INFINITY! ♾️✨\n\nFor my birthday, I'd love to:\n👉 ${birthdayChoices || 'Spend time together'}`;
+    const baseText = `Hey Jeevana! I finished the quiz. 💖\nIt turns out you love me to INFINITY! ♾️✨\n\nFor the trip, I'd love to:\n👉 ${birthdayChoices || 'Spend time together'}`;
     const encodedText = encodeURIComponent(baseText);
     return `https://wa.me/?text=${encodedText}`;
   };
@@ -65,15 +65,15 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
     return (
       <div className="glass-container infinity-container fade-transition" style={{ maxWidth: '600px' }}>
         <span className="infinity-symbol">♾️</span>
-        <h1 className="infinity-title">Baby Loves You Infinity! ❤️</h1>
+        <h1 className="infinity-title">jeevana Loves You Infinity! ❤️</h1>
         
         <p className="subtitle" style={{ fontSize: '1.25rem', color: '#ff4071', fontWeight: 'bold' }}>
           Numbers cannot measure it, limits cannot contain it.
         </p>
 
         <div className="sweet-letter">
-          Hi sweetie, no matter what number you entered, there is no limit to how much I love you. 
-          You make my life complete, and I can't wait to celebrate your birthday together!
+          Hi puttu, no matter what number you entered, there is no limit to how much I love you. 
+          You made my life brighter, and I can't wait to go to trip together!
           <br /><br />
           <strong>Birthday Plan Confirmed:</strong><br />
           ✨ {birthdayChoices || "We'll figure out a perfect plan!"}
@@ -96,7 +96,7 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
     <div className="glass-container fade-transition">
       <h1>Love Calculator 💘</h1>
       <p className="subtitle">
-        One final question: How much do you think baby loves you? Enter your estimate below!
+        One final question: How much do you think Jeevana loves you? Enter your estimate below!
       </p>
 
       <form onSubmit={handleCalculate} className="love-input-container">
