@@ -158,7 +158,7 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
           <div className="fade-transition" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3>Pick your favorite hill station destination:</h3>
             <div className="options-grid">
-              {['chikmangalur 🌲', 'varkala 🌸', 'Goa ☕'].map((dest) => (
+              {['chikmangalur 🌲', 'Sakleshpur ⛰️', 'Munnar 🍃'].map((dest) => (
                 <button
                   key={dest}
                   onClick={() => setFinalDetail(dest)}
